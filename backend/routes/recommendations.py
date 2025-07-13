@@ -395,7 +395,7 @@ query_gen = QueryGenerator(csv_path=csv_path)
 @router.post("/recommend_0/{email}")
 async def recommend_0(email: str, request: PromptRecommendationRequest):
     text_prompt = request.prompt.strip()
-    all_genres = await get_user_genres(email, text_prompt)
+    all_genres = await get_user_genres(email, text_prompt, False)
     
     search_query = query_gen.generate_query_0(all_genres)
 
