@@ -1,0 +1,40 @@
+@keyframes a
+{
+    0%
+    {
+        transform: translateY(-30%);
+        opacity: 0%;
+    }
+    10% 
+    {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+    70%
+    {
+        opacity: 100%;
+    }
+    99%
+    {
+        opacity: 0%;
+        transform: translateY(0%);
+    }
+    100%
+    {
+        transform: translateY(-30%);
+        opacity: 0%;
+        display: none;
+    }
+}
+
+#newPlaylistSuccessBox
+{
+    display: none;
+}
+
+#newPlaylistSuccessBox.show
+{
+    display: block;
+    animation: a 3s forwards ease-in-out;
+}
+

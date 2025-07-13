@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+#logo
+{
+    margin: auto;
+    animation: logo_popup 0.5s forwards; 
+}
+
+#login_button, #register_button
+{
+    cursor: pointer;
+}
+
+@keyframes logo_popup {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+#switch_capsule
+{
+    background-color: #8b32ff;
+}
+
+#search_m_container
+{
+    background-color: rgba(255, 150, 150, 0.9);
+}
+
+#close_button
+{
+    width: 10%;
+    float: right;
+    position: relative;
+    right: 5%;
+    margin-top: 5%;
+}
+
+
+
+
+
+@keyframes bg_switch_to_r
+{
+    from { background-color: #8b32ff; }
+    to { background-color: orange; }
+}
+
+@keyframes switch_to_r
+{
+    from { margin-left: 0; }
+    to { margin-left: 61%; }
+}
+
+@keyframes bg_switch_to_l
+{
+    from { background-color: orange; }
+    to { background-color: #8b32ff; }
+}
+
+@keyframes switch_to_l
+{
+    from { margin-left: 61%; }
+    to { margin-left: 0; }
+}
+
+
+

@@ -1,0 +1,22 @@
+#overlay
+{
+    background-color: black;
+    opacity: 0.6;
+    z-index: 998;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    inset: 0;
+}
+
+#close_button_edit
+{
+    position: absolute;
+    right: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
