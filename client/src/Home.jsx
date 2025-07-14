@@ -557,7 +557,7 @@ async function onPlayerStateChange(event) {
           <div className="w-full row-start-1 row-end-2 flex flex-col h-[80%] col-start-1 col-end-9 justify-between items-center">
           <div id="navbar" className="w-full h-[30%] md:h-[20%] lg:h-[15%] xl:h-[12%] bg-gradient-to-r from-purple-500 to-indigo-600 flex justify-between col-start-1 col-end-9">
             <div id="logo_container_n" href="/" className="rounded-full w-[20%] h-[80%] flex justify-center items-center">
-              <img src={ logo2 } onClick={ () => window.location.assign("/") } className="w-[80%] lg:w-[20%] mt-[5%] h-[80%] lg:h-[90%] hover:cursor-pointer"></img>
+              <img src={ logo2 } onClick={ () => window.location.assign("/") } className="w-[40%] lg:w-[20%] mt-[5%] h-[80%] lg:h-[90%] hover:cursor-pointer"></img>
             </div>
             { loggedIn &&
             <div className="text-center flex w-[30%] justify-center mx-auto items-center">
