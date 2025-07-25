@@ -12,6 +12,7 @@ Check it here:
 - 💻 Personalized search query generation using AI (scikit-learn and TF-IDF)
 - 💾 Stores user preferences, likes, dislikes and listen history in a MongoDB database
 - 🎶 Allows playlist generation and editing
+- 🎥 Mood based recommendations using facial expression detection
 
 ## ⚙️ Tech Stack
 
@@ -45,10 +46,6 @@ cd backend
 venv\Scripts\activate
 fastapi dev main.py
 ```
-
-## 🔮 Upcoming Features
-
-- 🎥 Mood based recommendations using facial expression detection
 
 🧑‍💻 Made by
 
