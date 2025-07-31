@@ -4,7 +4,7 @@ MusiSense is an AI-powered music recommendation app that provides music recommen
 
 ## 🚀 Live
 
-Check it here:
+Check it here: https://musisenseai.vercel.app
 
 ## ✨ Features
 
