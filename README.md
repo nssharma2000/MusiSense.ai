@@ -17,8 +17,11 @@ Check it here: https://musisenseai.vercel.app
 ## ⚙️ Tech Stack
 
 **Frontend:** React (Vite), Tailwind CSS
+
 **Backend:** Node.js, Express.js, FastAPI (Python), MongoDB
+
 **ML/AI:** TF-IDF + Ridge Regression (scikit-learn)
+
 **Deployment:** Vercel (Frontend), Render (backend)
 
 ## Getting Started
