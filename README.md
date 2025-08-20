@@ -47,6 +47,10 @@ venv\Scripts\activate
 fastapi dev main.py
 ```
 
+### Login
+
+Use email 'dummy@gmail.com' and password '12345' for testing.
+
 🧑‍💻 Made by
 
 Naman Sharma

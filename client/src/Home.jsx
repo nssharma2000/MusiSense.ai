@@ -551,8 +551,8 @@ async function onPlayerStateChange(event) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     </Helmet>
 
-    <div id="main_container" className="container text-center mx-auto">
-      <div id="bg" className="container text-center bg-slate-50 h-full">
+    <div id="main_container" className="text-center mx-auto">
+      <div id="bg" className="text-center bg-slate-50 h-full">
         <div id="main_grid" className="grid grid-cols-8 grid-rows-5 gap-1.5">
           <div className="w-full row-start-1 row-end-2 flex flex-col h-[80%] col-start-1 col-end-9 justify-between items-center">
           <div id="navbar" className="w-full h-[30%] md:h-[20%] lg:h-[15%] xl:h-[12%] bg-gradient-to-r from-purple-500 to-indigo-600 flex justify-between col-start-1 col-end-9">
