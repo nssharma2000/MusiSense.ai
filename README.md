@@ -39,7 +39,7 @@ npm start
 
 ```
 cd server
-npm start
+node index.js
 ```
 
 ### FastAPI Backend Setup:
